@@ -2,10 +2,12 @@ import React from "react";
 import styles from "./List.module.css";
 import Item from "../Item/Item";
 
-const List = () => {
+const List = (props) => {
   return (
     <ul className={styles.list}>
-      <Item />
+      {props.houses.map((house) => (
+        <Item house={house} key={house.id} />
+      ))}
     </ul>
   );
 };

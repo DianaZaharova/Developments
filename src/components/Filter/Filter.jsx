@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Filter.module.css";
 
-const Filter = () => {
+const Filter = (props) => {
   return (
     <div className={styles.wrap}>
       <label className={styles.label} htmlFor="filter">
@@ -12,6 +12,8 @@ const Filter = () => {
         type="text"
         id="filter"
         name="filter"
+        value={props.input}
+        onInput={(e) => props.setInput(e.target.value)}
       ></input>
     </div>
   );

@@ -1,8 +1,9 @@
 .button {
   font-family: inherit;
   font-weight: 700;
+  font-size: inherit;
+  line-height: inherit;
   letter-spacing: -0.3px;
-  padding: 12px 44px 12px 33px;
   background-color: transparent;
   border: 1px solid #d8d8d8;
   box-sizing: border-box;
@@ -11,13 +12,13 @@
   position: relative;
   transition: border 0.3s, opacity 0.3s;
   align-self: center;
+  margin-top: auto;
 }
 
 .button::after {
   content: "";
   position: absolute;
   top: 50%;
-  right: 20px;
   transform: translateY(-50%);
   background-image: url(./img/icon-arrow-right.svg);
   background-repeat: no-repeat;
@@ -25,6 +26,23 @@
   background-size: contain;
   width: 18px;
   height: 18px;
+}
+
+.button_left {
+  padding: 15px 40px 15px 50px;
+}
+
+.button_left::after {
+  left: 20px;
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.button_rigth {
+  padding: 15px 50px 15px 40px;
+}
+
+.button_rigth::after {
+  right: 20px;
 }
 
 .button:hover {
