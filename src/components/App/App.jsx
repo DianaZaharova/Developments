@@ -26,7 +26,11 @@ const App = () => {
   const filter = () => {
     if (input.length >= 3) {
       setIsSearch(true);
-      setfiltredHouses(houses.filter((item) => item.title.includes(input)));
+      setfiltredHouses(
+        houses.filter((item) =>
+          item.title.toLocaleLowerCase().includes(input.toLocaleLowerCase())
+        )
+      );
     }
   };
 
