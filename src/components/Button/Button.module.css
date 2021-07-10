@@ -20,7 +20,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-image: url(./img/icon-arrow-right.svg);
+  background-image: url(../img/icon-arrow-right.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
