@@ -28,7 +28,7 @@ const App = () => {
       setIsSearch(true);
       setfiltredHouses(
         houses.filter((item) =>
-          item.title.toLocaleLowerCase().includes(input.toLocaleLowerCase())
+          item.title.toLowerCase().includes(input.toLowerCase())
         )
       );
     }
