@@ -1,0 +1,67 @@
+.item {
+  max-width: 377px;
+  background-color: #f8f8f8;
+  border: 1px solid #d8d8d8;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.img-wrap {
+  width: 100%;
+  height: 227px;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content-wrap {
+  padding: 20px;
+}
+
+.name,
+.sale,
+.address,
+.conditions {
+  margin-top: 0;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  margin-bottom: 2px;
+}
+
+.sale,
+.address {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.address {
+  margin-bottom: 15px;
+}
+
+.sale {
+  margin-bottom: 7px;
+}
+
+.sale_bold {
+  font-weight: 700;
+}
+
+.conditions {
+  font-size: 14px;
+  line-height: 19px;
+  margin-bottom: 0;
+}

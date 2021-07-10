@@ -3,14 +3,15 @@ import styles from "./App.module.css";
 import Filter from "../Filter/Filter.jsx";
 import List from "../List/List.jsx";
 import Button from "../Button/Button.jsx";
+import Title from "../Title/Title.jsx";
 
 const App = () => {
   return (
     <div className={styles.wrap}>
-      <h1>Our Latest Developments</h1>
+      <Title title={"Our Latest Developments"} />
       <Filter />
       <List />
-      <Button />
+      <Button text={"See more"} />
     </div>
   );
 };

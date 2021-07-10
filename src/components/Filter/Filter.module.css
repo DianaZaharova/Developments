@@ -1,0 +1,28 @@
+.wrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 45px;
+}
+
+.label {
+  font-weight: 700;
+  letter-spacing: -0.3px;
+}
+
+.input {
+  border: 1px solid #d8d8d8;
+  box-sizing: border-box;
+  border-radius: 25px;
+  height: 50px;
+  width: 418px;
+  padding: 10px;
+  font-size: inherit;
+  color: inherit;
+}
+
+.input:focus {
+  outline: none;
+  border: 1px solid #363636;
+  border-radius: 25px;
+}

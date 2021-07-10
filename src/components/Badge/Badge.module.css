@@ -1,0 +1,18 @@
+.badge {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  padding: 8px 10px 5px 10px;
+  position: absolute;
+  top: 197px;
+  right: 0;
+}
+
+.badge_blue {
+  background-color: #006f79;
+}
+
+.badge_orange {
+  background-color: #ec6608;
+}
