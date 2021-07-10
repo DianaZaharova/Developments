@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import "typeface-open-sans";
+import "./fonts/fonts.css";
 import App from "./components/App/App.jsx";
 
 ReactDOM.render(
